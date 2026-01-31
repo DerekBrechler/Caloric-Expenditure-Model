@@ -41,25 +41,3 @@ print("\nFeature Coefficients:")
 for feature, coef in zip(features, model.coef_):
     print(f"  {feature:20s}: {coef:8.2f}")
 print(f"  {'Intercept':20s}: {model.intercept_:8.2f}")
-
-
-
-"""
-
-Plot relations of zones relating to LT/VT as a percentage of HR. (Calories and dataset need to be checked for grounding errors)
-What are we going to use to define these LTHR% zones and how many zones? Need literature and papers on this to solidify. (right now they are just coach formulations)
-Just look and base off the LT/VT 1 and 2 markers?
-
-Data is synthesized using Claude Code but I should try the actual Claude model via browser or app. 
-Its giving back negative relations between zones but these zones aren't really backed by what we are trying to find anyway
-Need to use real data it seems, atleast to guide Claude into more sound data creation.
-
-"""
-
-
-"""Testing Area
-
-Okay so model is making sense now, and is grounded somewhat in male physiology thanks to my data HOWEVER I need female data samples to ground female synthetic data!
-OR just move to real data from me and one female.
-
-"""
